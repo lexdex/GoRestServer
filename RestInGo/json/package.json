@@ -1,0 +1,23 @@
+{
+  "Persons":
+  [
+    {
+      "ID": "1",
+      "Name": "Dmytro",
+      "Surname": "Dovhal",
+      "Age": 21
+    },
+    {
+      "ID": "2",
+      "Name": "Bohdan",
+      "Surname": "Sydor",
+      "Age": 20
+    },
+    {
+      "ID": "3",
+      "Name": "Evgen",
+      "Surname": "Taras",
+      "Age": 21
+    }
+  ]
+}

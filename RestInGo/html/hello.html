@@ -1,0 +1,17 @@
+{{define "jsonfile"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {{range $key, $value := .Persons}}
+        <li>{{$value.Name}}, {{$value.Surname}}, {{$value.Age}}</li>
+    {{end}}
+</ul>
+
+</body>
+</html>
+{{end}}
